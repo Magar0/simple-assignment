@@ -1,0 +1,93 @@
+.log {
+  width: 500px !important;
+
+  .checkbox {
+    margin-top: 15px;
+    color: #737b86;
+  }
+
+  .remember a {
+    float: right;
+    color: #f78719;
+    text-decoration: none;
+  }
+
+  /* .checkbox input {
+    margin-right: 10px;
+  } */
+
+  .terms a {
+    color: #f78719;
+  }
+
+  form div:last-child {
+    text-align: center;
+  }
+
+  form .error {
+    font-weight: 300;
+    color: red;
+    text-transform: capitalize;
+  }
+
+  #submit {
+    width: 50%;
+    color: white;
+    border-radius: 20px;
+    background: #1575a7;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  #submit:hover {
+    background-color: green;
+  }
+
+  .register p {
+    font-weight: 500;
+    color: #04072f;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .register a {
+    color: #f78719;
+  }
+}
+
+.formGroup {
+  position: relative;
+
+  label {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 2px solid aqua;
+  }
+
+  .icon {
+    font-size: 1.2rem;
+    position: absolute;
+    right: 10px;
+    top: 33px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .checkbox {
+    font-size: 0.8rem;
+  }
+}
