@@ -74,7 +74,7 @@ const Login = () => {
                 <form action="/">
                     <div className="formGroup">
                         <label htmlFor="email"> Email Id :</label>
-                        <input type="text" name='email' id='email' placeholder='Enter Email ID' value={email} autoComplete="off" onChange={(e) => setEmail(e.target.value)} required />
+                        <input type="email" name='email' id='email' placeholder='Enter Email ID' value={email} autoComplete="off" onChange={(e) => setEmail(e.target.value)} required />
                     </div>
 
                     <div className="formGroup">
