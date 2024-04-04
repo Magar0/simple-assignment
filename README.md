@@ -9,6 +9,10 @@
 ## General info
 ![login](https://github.com/Magar0/simple-assignment/assets/35245789/0a33ca3f-be32-49ba-bdcd-236276339695)
 
+https://youtu.be/gKa_PQkvSBU  a short live demo video of my project. 
+
+https://simple-assignment-frontend.vercel.app/ live page link.
+
 * Developed a simple Login & Sign Up page using React JS, Node JS, Mongo DB.
 * Decrypt password using jwt.
 * Email verified if present then login ,if not present redirected to sign up page.
